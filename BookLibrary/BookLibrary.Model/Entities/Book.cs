@@ -15,7 +15,8 @@ namespace BookLibrary.Model.Entities
         public string Author { get; set; }
         public string Publisher { get; set; }
         public DateTime PublishedDate { get; set; }
-        public string Description { get;}
+        public string Description { get; set; }
+        public string ImageUrl { get; set; }
         public List<BookCategory> BookCategories { get; set; }
     }
 }

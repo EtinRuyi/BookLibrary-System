@@ -9,10 +9,11 @@ namespace BookLibrary.Model.Entities
         public string LastName { get; set; }
         public Address Address { get; set; }
         public string ImageUrl { get; set; }
+        public int Age { get; set; }
+        public Gender Sex { get; set; }
+        public EmploymentStatus Employment { get; set; }
         public DateTime DateCreated { get; set; } = DateTime.Now;
         public DateTime DateUpdated { get; set; } = DateTime.Now;
         public bool IsDreprecated { get; set; }
-        public Gender Sex { get; set; }
-        public EmploymentStatus Employment { get; set; }
     }
 }
